@@ -8,6 +8,7 @@ npm i express pg cors
 
 touch index.js (creates a file named index.js)
 if above command doesn't work -> npm install touch-cli -g
+nodemon index.js
 
 
 
@@ -16,3 +17,10 @@ opening postgresql db from command prompt(open the cmd and type) -> psql -U post
 \l -> showing all databases
 \c perntodo -> to go inside perntodo db
 \dt -> showing all tables inside a database
+
+
+--------------------------------Client--------------------------------
+npx create-react-app client -> client app creation
+deleted unnecessary files in src folder
+enabling to use bootstrap 4 - (bootstrap 4 introduction page's adding css stylesheet link and js scripts to \public\index.html)
+npm start - start server
