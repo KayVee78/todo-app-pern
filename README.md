@@ -5,7 +5,7 @@
 <br />
 <div align="center">
   <p align="center">
-   TODO App - PERN
+   TODO APP - PERN
     <br />
     <br />
   </p>
