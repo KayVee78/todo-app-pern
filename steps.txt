@@ -1,0 +1,11 @@
+--------------------------------Server--------------------------------
+cd server
+npm init
+npm i express pg cors 
+1. express(express allows to create the server in nodejs)
+2. cor(allows different domain applications to interact with each other) server-5000, react app-3000
+3. pg(connect database with the server to run postgre queries)
+
+touch index.js (creates a file named index.js)
+if above command doesn't work -> npm install touch-cli -g
+
