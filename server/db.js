@@ -9,4 +9,9 @@ const pool = new Pool({
   database: "perntodo",
 });
 
+pool
+  .query("SELECT NOW()") // Test query to verify connection
+  .then(() => console.log("Database connected"))
+  .catch((err) => console.error("Database connection error:", err.message));
+
 module.exports = pool;
