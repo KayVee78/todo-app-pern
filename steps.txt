@@ -9,3 +9,10 @@ npm i express pg cors
 touch index.js (creates a file named index.js)
 if above command doesn't work -> npm install touch-cli -g
 
+
+
+--------------------------------Database--------------------------------
+opening postgresql db from command prompt(open the cmd and type) -> psql -U postgres
+\l -> showing all databases
+\c perntodo -> to go inside perntodo db
+\dt -> showing all tables inside a database
